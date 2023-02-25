@@ -10,7 +10,7 @@ export default function Header() {
           src="/AAA.png"
           className="sm:w-14 sm:h-14 w-9 h-9"
           width={60}
-          height={110}
+          height={60}
         />
         <h1 className="sm:text-5xl text-3xl font-bold ml-2 tracking-tight">
            Blazemedia 
@@ -21,13 +21,13 @@ export default function Header() {
         target="_blank"
         rel="noreferrer"
       >
-        <Image
+        {/* <Image
           alt="Vercel Icon"
           src="/vercelLogo.png"
           className="sm:w-10 sm:h-[34px] w-8 h-[28px]"
           width={32}
-          height={28}
-        />
+          height={28} */}
+        {/* /> */}
       </a>
     </header>
   );

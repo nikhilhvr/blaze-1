@@ -10,6 +10,7 @@ export default function Footer() {
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
           href="https://twitter.com/abhishekhvrr"
+          target="_blank"
           className="group"
           aria-label="Abhish on Twitter"
         >
@@ -22,6 +23,7 @@ export default function Footer() {
         </Link>
         <Link
           href="https://github.com/abhishekhvr/blaze"
+          target="_blank"
           className="group"
           aria-label="Blaze on GitHub"
         >
