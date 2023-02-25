@@ -33,52 +33,36 @@ const Home: NextPage = () => {
           
         </h1>
 
-        <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
+        <p className="mx-auto mt-8 max-w-xl text-lg text-slate-700 leading-7">
         Let us build the bridge between your brand and customer. We have got minds in action 🚀
         </p>
         <div className="flex justify-center space-x-4">
           <a
-            className="bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-gray-100 border"
-            href="https://youtu.be/FRQtFDDrUXQ"
+            className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
+            href="https://calendly.com/abhishblaze/25min?month=2023-02"
             target="_blank"
             rel="noreferrer"
           >
-            Learn how it's built
+            Speak to Team
+          </a>
+          <a
+            className="bg-blue rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-100 border"
+            href=" "
+            target="_blank"
+            rel="noreferrer"
+          >
+            FREE ADVANCED TRAINING
           </a>
 
-          <Link
+          {/* <Link
             className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
             href="/restore"
           >
             Restore your photos
-          </Link>
+          </Link> */}
         </div>
-        <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
-          <div className="flex flex-col space-y-10 mt-4 mb-16">
-            <div className="flex sm:space-x-2 sm:flex-row flex-col">
-              <div>
-                <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
-                <Image
-                  alt="Original photo of my bro"
-                  src="/michael.jpg"
-                  className="w-96 h-96 rounded-2xl"
-                  width={400}
-                  height={400}
-                />
-              </div>
-              <div className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Restored Photo</h2>
-                <Image
-                  alt="Restored photo of my bro"
-                  width={400}
-                  height={400}
-                  src="/michael-new.jpg"
-                  className="w-96 h-96 rounded-2xl sm:mt-0 mt-2"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        
       </main>
       <Testimonials />
       <Footer />
